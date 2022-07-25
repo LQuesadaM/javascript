@@ -21,9 +21,9 @@
         function verificar() {
             var pais = document.querySelector('input#inac')
             var res = document.querySelector('div#res')
-            var contry = String(pais.value)
-            res.innerHTML = `<p>Tu país es <strong>${contry}</strong></p>`
-            if (contry == 'Brasil') {
+            var country = String(pais.value)
+            res.innerHTML = `<p>Tu país es <strong>${country}</strong></p>`
+            if (country == 'Brasil') {
                 res.innerHTML += '<p>Você é <strong>Brasileiro!</strong></p>'
             } else {
                 res.innerHTML += '<p>Você é <strong>Estrangeiro!</strong></p>'
